@@ -1,0 +1,8 @@
+<h2>Subject: {{ counter$ | async }}</h2>
+<h2>Signal: {{ counter() }} </h2>
+
+<hr />
+
+<button type="button" (click)="increase()">Increase</button>
+&nbsp;
+<button type="button" (click)="decrease()">Decrease</button>
